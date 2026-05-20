@@ -1,0 +1,19 @@
+{
+  "name": "claude-agent",
+  "version": "0.1.0",
+  "description": "tmux-backed Claude Code agent orchestrator",
+  "type": "module",
+  "bin": {
+    "claude-agent": "bin/claude-agent"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "bun test",
+    "start": "bun run src/cli.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "1.3.13",
+    "typescript": "5.8.3"
+  }
+}
